@@ -18,6 +18,7 @@
       background: #333;
       color: white;
       padding: 1rem 0;
+      border-bottom: 2px solid #007BFF; /* Blue border */
     }
     main {
       padding: 2rem;
@@ -34,6 +35,23 @@
       font-size: 0.8rem;
       color: #555;
     }
+    footer a {
+      color: #007BFF;
+      margin: 0 5px;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    .about, .projects {
+      margin: 20px 0;
+    }
+    .projects ul {
+      list-style: none;
+      padding: 0;
+    }
+    .projects li {
+      margin: 5px 0;
+    }
   </style>
 </head>
 <body>
@@ -41,12 +59,25 @@
     <h1>Welcome to My GitHub Landing Page</h1>
   </header>
   <main>
-    <p>Hello! This is a simple landing page hosted on GitHub Pages.</p>
-    <p>Explore my projects and connect with me!</p>
-    <a href="https://github.com/your-username">Visit My GitHub Profile</a>
+    <section class="about">
+      <h2>About Me</h2>
+      <p>Hi, I'm [Your Name]. I'm passionate about coding and open-source software. Welcome to my GitHub profile!</p>
+    </section>
+    
+    <section class="projects">
+      <h2>My Projects</h2>
+      <ul>
+        <li><a href="https://github.com/your-username/project-1">Project 1</a></li>
+        <li><a href="https://github.com/your-username/project-2">Project 2</a></li>
+        <!-- Add more projects as needed -->
+      </ul>
+    </section>
   </main>
+  
   <footer>
-    <p>© 2024 Your Name</p>
+    <p>Follow me on:</p>
+    <a href="https://twitter.com/your-username" target="_blank">Twitter</a> |
+    <a href="https://linkedin.com/in/your-username" target="_blank">LinkedIn</a>
   </footer>
 </body>
 </html>
