@@ -1,2 +1,1 @@
-# my-landing-page
-This is my readme file
+https://adithyaupendran.github.io/my-landing-page/
